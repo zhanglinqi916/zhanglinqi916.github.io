@@ -33,17 +33,18 @@
 </table>
 ]]></content>
       <categories>
-        <category>read</category>
+        <category>happy</category>
       </categories>
-      <tags>
-        <tag>初来乍到</tag>
-        <tag>你好你好</tag>
-        <tag>read</tag>
-      </tags>
   </entry>
   <entry>
     <title>再见2020</title>
     <url>/2020/09/17/%E5%86%8D%E8%A7%812020/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul>
+<li>你好</li>
+</ul>
+]]></content>
+      <categories>
+        <category>chat</category>
+      </categories>
   </entry>
 </search>
