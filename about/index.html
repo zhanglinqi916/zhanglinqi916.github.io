@@ -328,6 +328,11 @@
 
           </div>
           
+    
+  <div class="comments">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC81MTU4OS8yODA3MA=="></div>
+  </div>
+  
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -390,7 +395,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -408,11 +413,7 @@
 	  
 	  
 
-    </div>
-	 <div id="music163player">
-   <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 
-   height=86 src="//music.163.com/outchain/player?type=2&id=1388334766&auto=1&height=66"></iframe>
-   </div>
+   
      
   </aside>
   <div id="sidebar-dimmer"></div>
@@ -538,6 +539,22 @@ show_date_time();
   
 
   
+
+<script>
+NexT.utils.loadComments(document.querySelector('#lv-container'), () => {
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+});
+</script>
 
 
 <script type="text/javascript" 
