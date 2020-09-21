@@ -37,11 +37,27 @@
       </categories>
   </entry>
   <entry>
-    <title>再见2020</title>
+    <title>tomcat使用</title>
     <url>/2020/09/17/%E5%86%8D%E8%A7%812020/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul>
-<li>你好</li>
-</ul>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="tmcat教学"><a href="#tmcat教学" class="headerlink" title="tmcat教学"></a>tmcat教学</h3><hr>
+<pre><code>                            tomcat教学</code></pre>
+<h3 id="tomcat安装"><a href="#tomcat安装" class="headerlink" title="tomcat安装"></a>tomcat安装</h3><pre><code class="内容">    1.下载!: [下载](http://tomcat.apache.org/ )
+    2.安装：解压压缩包即可
+    3.卸载：删除目录
+    4.目录结构:&lt;img src=&#39;./2020-09-17-再见2020/1.png&#39;&gt;
+    5.启动：寻找bin目录下的 startup.bat
+            输入浏览器：http；//localhost：8080回车访问自己
+                        http：//别人的ip：8080回车访问别人
+    6部署:  在webapp上部署文件夹hello
+             /hello： 项目的访问路径--&gt;虚拟目录
+             在hello的文件夹里写个hello.html，用于做自己的页面
+
+            在conf\Catalina\localhost创建任意名称的xml文件。在文件中编写
+                    &lt;Context docBase=&quot;D:\hello&quot; /&gt;
+                    * 虚拟目录：xml文件的名称 例如取名bbb。 就是localhost：8080\bbb\hello.html。
+                    就可以访问自己的页面了
+
+</code></pre>
 ]]></content>
       <categories>
         <category>chat</category>
